@@ -17,8 +17,8 @@ if (body.data) {
   body.data.itemList = [
     {
       "expireTime": null,
-      "functionType": 1,
-      "permissionStatus": 1,
+      "functionType": 0,
+      "permissionStatus": 0,
       "residualTimes": 999999,
       "residualTotalTimes": 999999
     }
