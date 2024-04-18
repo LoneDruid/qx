@@ -14,8 +14,8 @@ console.log('[JKBD trial-count] start');
 let body = JSON.parse($response.body);
 
 if (body.data) {
-  body.data.remainCount = 10
-  body.data.totalCount = 10
+  body.data.remainCount = 999999
+  body.data.totalCount = 999999
 }
 
 body = JSON.stringify(body);
